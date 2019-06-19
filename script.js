@@ -14,7 +14,7 @@ $(document).ready(function(){
             var letter = $('<h5 id="'+i+'">'+guessWord[i]+'</h5>')
             $('#guessOutput').append(letter)
         }
-        $('#leftside').show()
+        
     })
 
 
