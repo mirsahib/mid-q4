@@ -1,1 +1,12 @@
 /* Add your styles here */
+
+#rightSide{
+    display: none;
+}
+.letter{
+    margin-left: 15px;
+    text-decoration: underline;
+}
+#guessText{
+    color: green;
+}

@@ -2,11 +2,11 @@
 <html>
   <head>
     <title>Mid Q4</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <!-- Your site content here -->
+      <!-- Your site content here 
       <div>
         <div id="rightSide">
           <h3>Simple hangman</h3>
@@ -21,6 +21,22 @@
           </div>
         </div>
       </div>
+    -->
+    <div class="container">
+      <div class="row">
+        <div id="leftSide" class="col-md-6">
+          <h3>Simple hangman</h3>
+          <p>Enter a number</p>
+          <input id="select" type="text">
+          <button id="play">Play</button>
+        </div>
+        <div id="rightSide" class="col-md-6">
+          <input type="text" value="Your guess">
+          <label id="guessText">Guess</label>
+          <div class = "row" id="guessOutput"></div>
+        </div>
+      </div>
+    </div>
 
 
       
