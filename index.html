@@ -3,9 +3,28 @@
   <head>
     <title>Mid Q4</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
   <body>
       <!-- Your site content here -->
+      <div>
+        <div id="rightSide">
+          <h3>Simple hangman</h3>
+          <p>Enter a number</p>
+          <input id="select" type="text" value="">
+          <button id="play">Play</button>
+        </div>
+        <div id="leftSide">
+          <input type="text" value="Your guess">
+          <h5 id="guess">Guess!</h5>
+          <div class = "row" id="guessOutput">
+          </div>
+        </div>
+      </div>
+
+
+      
+
       <script src="jquery-3.3.1.min.js"></script>
       <script src="script.js"></script>
   </body>
